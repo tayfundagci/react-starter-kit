@@ -1,10 +1,23 @@
+import { useEffect } from "react";
 import logo from "./logo.svg";
 
 function App() {
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production") {
+      // analytici bilgilendir
+    }
+  }, []);
+
   return (
     <div className="App">
-      <img src="logo192.png" alt="" />
-      <img src={logo} alt="" />
+      <h3>{process.env.NODE_ENV} test</h3>
+      <p>{process.env.REACT_APP_API_URL}</p>
+      {process.env.NODE_ENV === "production" && (
+        <>
+          <img src="logo192.png" alt="" />
+          <img src={logo} alt="" />
+        </>
+      )}
     </div>
   );
 }
