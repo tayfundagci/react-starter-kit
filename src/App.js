@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className={styles.App}>
-      <Title>{process.env.NODE_ENV} test</Title>
+      <Title>{process.env.NODE_ENV} git config user.email test</Title>
       <Title theme="dark">{process.env.NODE_ENV} test</Title>
       <p>{process.env.REACT_APP_API_URL}</p>
       <Test />
