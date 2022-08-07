@@ -5,21 +5,23 @@
 nav {
   text-align: center;
   align-items: center;
-  margin: 0 200px;
+  margin: 0 100px;
 }
 
 nav .left {
   float: left;
+  margin-top: 30px;
 }
 
 nav .right {
   float: right;
+  margin-top: 30px;
 }
 
 nav a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 50px;
 }
 
@@ -31,7 +33,10 @@ nav span {
   text-align: center;
   margin: 20px;
 }
-
+.checkout {
+  text-align: center;
+  background-color: aliceblue;
+}
 .product-list {
   padding: 100px;
   background-color: aliceblue;
