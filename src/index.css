@@ -1,1 +1,53 @@
+.App {
+  box-sizing: border-box;
+}
 
+nav {
+  text-align: center;
+  align-items: center;
+  margin: 0 200px;
+}
+
+nav .left {
+  float: left;
+}
+
+nav .right {
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+nav span {
+  justify-content: space-evenly;
+}
+
+.card {
+  text-align: center;
+  margin: 20px;
+}
+
+.product-list {
+  padding: 100px;
+  background-color: aliceblue;
+}
+
+.product-box {
+  font-size: 50px;
+}
+
+.purchase {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.purchase h3 {
+  font-size: 20px;
+}
